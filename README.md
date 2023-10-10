@@ -10,8 +10,8 @@ This also works for other supported camers with the same SDK, like the [A2 mini]
 
 - Make sure you setup your camera's default IP address and port under `A8miniControl.h`
 - Default IP is `192.168.144.25`
-- Default port is `8554`
-- When using RTSP, main address is `rtsp://192.168.144.25:8554/main.264`
+- Default port for control is `37260`
+- When using RTSP, stream address is `rtsp://192.168.144.25:8554/main.264`
 
 ## Usage
 
