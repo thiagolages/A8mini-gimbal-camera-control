@@ -10,7 +10,7 @@ int main(int argc, char *argv[]){
 
     if (argc <2){
         do{
-            printf("Insert the command index (0-21): ");
+            printf("Insert the command index (0-26): ");
             scanf("%d",&cmd_idx);
         }while (cmd_idx < 0 || cmd_idx > NUM_COMMANDS-1);
         debug = true; // inserting option while running by hand, enable debug mode
