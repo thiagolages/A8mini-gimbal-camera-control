@@ -4,6 +4,13 @@
 
 I've read the [A8 mini docs provided by SIYI](https://shop.siyi.biz/products/siyi-a8-mini) themselves and came up with this handy tool to control the camera.
 
+## Setup
+
+- Make sure you setup your camera's default IP address and port under `A8miniControl.h`
+- Default IP is `192.168.144.25`
+- Default port is `8554`
+- When using RTSP, main address is `rtsp://192.168.144.25:8554/main.264`
+
 ## Usage
 
 There's the option to control it via cmd line, typing commands indexes, but you can also run it passing cmd line arguments. 
@@ -64,3 +71,5 @@ Run the code with the cmd index you want as first argument
 - 26 - Read Range from Laser Rangefinder(Low byte in the front, high byte in the back, available on ZT30)
 
 **Note**: More commands might be supported by the camera but may not be included in the list of implemented commands.
+
+**Disclamer**: SIYI does provide some sample code which was used to build this code.
