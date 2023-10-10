@@ -4,6 +4,8 @@
 
 I've read the [A8 mini docs provided by SIYI](https://shop.siyi.biz/products/siyi-a8-mini) themselves and came up with this handy tool to control the camera.
 
+This also works for other supported camers with the same SDK, like the [A2 mini](https://shop.siyi.biz/products/siyi-a2-mini).
+
 ## Setup
 
 - Make sure you setup your camera's default IP address and port under `A8miniControl.h`
