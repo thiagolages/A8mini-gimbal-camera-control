@@ -9,8 +9,8 @@
 #include <stdbool.h>
 
 #define RECV_BUUF_SIZE 64
-#define SERVER_PORT 37260     // Gimbal Camera (Server) Port
-#define SERVER_IP "10.0.2.3"  // Gimbal Camera (Server) IP Addresses
+#define SERVER_PORT 37260           // Gimbal Camera (Server) Port
+#define SERVER_IP "192.168.144.25"  // Gimbal Camera (Server) IP Addresses
 
 #define MIN_CMD_SIZE 10
 #define MAX_CMD_SIZE 13
